@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Introducing-section{
+    background-color: rgb(245, 245, 245);
+}
+
+    
+
+ .text-sec h1 {
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.card-group h4{
+    font-size: 25px;
+    font-weight: 650;
+
+}
+.card-group p{
+    font-size: 17px;
+    font-weight: 400;
+    
+
+}
+
+
+
+.carousel-inner button{
+   width: 40px;
+   height: 40px;
+   border-radius: 40px;
+   margin-top: 250px;
+   margin-left: 20px;
+  background-color: black;
+   
+}
+
+
+
+
+.carousel-inner button:last-child{
+    
+    margin-right: 40px;
+ 
+ }
+ 
+/* footer */
+
+.social-media li{
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
+}
+
+.social-media a{
+    font-size: 13px;
+    color: rgb(51, 45, 45);
+    
+}
+
+.text-end a{
+    font-size: 12px;
+   color: rgb(11, 149, 248);
+    
+}
+
+.text-end p{
+    font-size: 12px;
+   
+    
+}
+
+.text-end h6{
+    font-size: 14px;
+    margin-top: 70px;
+   
+    
+}
+
+
+.footer-last-section{
+    background-color: rgb(250, 250, 250);
+}
+
+.footer-list h6{
+       font-size: 17px;
+       font-weight: 620;
+       color: rgb(59, 59, 59);
+       margin-bottom: 13px;
+
+}
+
+
+.footer-list a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+   
+}
+
+.footer-list li{
+    margin-top: 8px;
+    /* margin-bottom: 10px; */
+   
+}
+
+.contactus button{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 0.1px solid rgb(166, 166, 166);
+    border-radius: 30px;
+    font-size: 12px;
+    
+}
+
+.contactus span i:first-child{
+    margin-right: 5px;
+   font-size: 25px;
+   background-color: black;
+   color: rgb(255, 255, 255);
+   border-radius: 15px;
+   border: 0.1px solid black;
+}
+.contactus span i:last-child{
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 0.1px solid rgb(255, 255, 255);
+ }
+
+
+
+ .contact ul{
+    
+     display: flex;
+     justify-content: end;
+     
+    
+ }
+ .contact li{
+
+    margin-right: 40px;
+    text-align: end;
+ }
+
+ .contact a{
+     
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    
+ }
+ .contact p{
+    margin-top: 4px;
+    margin-left: -20px;
+    font-size: 13px;
+    color: rgb(78, 78, 78);
+ }
+
+
+ /* media query section  */
+
+ @media(max-width :1450px)
+ {
+    .nomore{
+        display: none;
+    }
+ }
+
+
+
+@media(max-width :991px)
+{
+
+    .text-sec {
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     margin-top: -70px;
+
+        
+    }
+    .text-sec h1{
+    text-align: center;       
+         
+     }
+     .text-sec p{
+        text-align: center;       
+             
+         }
+   .card:nth-child(3){
+     
+    display: none
+    
+    }
+ 
+
+}
+
+@media(max-width :1098px)
+{
+
+    .text-sec {
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     margin-top: -70px;
+
+        
+    }
+    .text-sec h1{
+    text-align: center;       
+         
+     }
+     .text-sec p{
+        text-align: center;       
+             
+         }
+     
+     .card:nth-child(4){
+        display: none;
+     }
+
+  
+
+}
+
+
+/* global :target h1  p button button text a  h4 h6  */
+
+
+@media(max-width :480px)
+{
+    h1{
+       font-size: 0px;
+   }
+}
